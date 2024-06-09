@@ -1,6 +1,7 @@
 # COVID-19-visualization
 
 # Projekt Vizualizacije Podataka
+https://dorapecurlic.github.io/COVID-19-visualization/
 
 ## Opis Projekta
 
