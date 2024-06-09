@@ -1,0 +1,130 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+   background-color: #b5d6d6 ;
+}
+#button-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#startAnimation,
+#pauseAnimation {
+    font-size: 16px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.content-container {
+    display: flex;
+    align-items: flex-start; 
+}
+
+.map-and-slider-container {
+    display: flex;
+    flex-direction: column; 
+  
+    margin-top: 20px;
+}
+
+#map-container {
+    margin-top: 40px; 
+    margin-bottom: 80px; 
+}
+
+#slider-container {
+    display: flex;
+    justify-content: center; 
+    margin-left: 300px;
+
+    position: absolute;
+    bottom: 10px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+#currentDate {
+    position: absolute;
+    bottom: 90px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+.legend-container {
+    flex-basis: 200px; 
+    margin-top: 40px;
+}
+
+path {
+    fill: #ccc; 
+    stroke: #fff; 
+    stroke-width: 0.5; 
+}
+
+.tooltip {
+    width: 130px; 
+    height: 55px; 
+    background-color: #fff;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 10px; 
+    font-size: 16px; 
+    position: absolute; 
+    opacity: 0; 
+    transition: opacity 0.3s; 
+}
+
+.tooltip strong {
+    font-size: 18px;
+    display: block; 
+}
+
+.tooltip .deaths {
+    font-size: 15px; 
+}
+
+.state {
+    stroke: #ffffff;
+    stroke-width: 1.5px;
+}
+
+.legend {
+    font-size: 14px;
+    text-anchor: start; 
+}
+
+.legend rect {
+    stroke: #fff;  
+    stroke-width: 1px;
+}
+
+.outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.comparison-container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px; 
+    color: #003A74  ; 
+}
+.bar {
+    fill: steelblue;
+}
+.bar:hover {
+    fill: orange;
+}
+.axis-label {
+    font-size: 12px;
+}

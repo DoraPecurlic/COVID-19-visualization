@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/topojson.v3.min.js"></script>
+    <script src="https://unpkg.com/d3-simple-slider"></script>
+
+    <link rel="stylesheet" href="../styles/vizualizations.css">
+    <title>USA COVID-19 mortality rate</title>
+
+</head>
+<body>
+    <div class="legend-container"></div>
+    <div class="content-container">
+        <div class="map-and-slider-container">
+            <div id="button-container">
+                <button id="startAnimation">Start</button>
+                <button id="pauseAnimation">Pause</button>
+            </div>
+            <div id="map-container"></div>
+            <div id="currentDate" data-date="2020-01-01">1. January 2020</div>
+            <div id="slider-container"></div>
+        </div>
+    </div>
+    <script src="../scripts/mortalityOfUS.js"></script>
+   
+   
+</body>
+</html>

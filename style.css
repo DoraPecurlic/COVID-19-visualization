@@ -1,0 +1,119 @@
+* {
+    scroll-behavior: smooth;
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+/* Navigation section */
+
+.primary-nav {
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.primary-nav ul {
+    display: flex;
+}
+
+.primary-nav ul li {
+    list-style: none;
+    margin: 0 5rem;
+}
+
+.primary-nav ul li a {
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: bold;
+    color: rgb(6, 81, 143);
+    transition: all 0.2s;
+}
+
+.primary-nav ul li a:hover {
+    color: rgb(0, 42, 77);
+}
+
+/* Hero section */
+
+.hero-container {
+    height: 92vh;
+    background-color: aliceblue;
+    display: flex;
+    padding: 0 12rem;
+}
+
+.title h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.title p {
+    font-size: 29px;
+}
+
+.hero-container img {
+    width: 600px;
+}
+
+/* About section */
+
+.about-container {
+    height: 80vh;
+    padding: 5rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    background-color: b5d6d6;
+}
+
+.about-container h2 {
+    font-size: 48px;
+    width: 50%;
+}
+
+.about-container p {
+    font-size: 25px;
+    color: #003A74;
+}
+
+/* Footer section */
+
+footer {
+    background-color: white ;
+}
+
+.footer-container {
+    padding: 1.5rem;
+    display: flex;
+    height: 15vh;
+}
+
+.footer-links {
+    display: flex;
+}
+
+.footer-links a {
+    margin: 0 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 21px;
+    color: rgb(6, 81, 143);
+    transition: all 0.2s;
+}
+
+.footer-links a:hover {
+    color: rgb(0, 42, 77);
+}
+
+/* Empty space */
+
+.empty-space {
+    height: 5vh;
+}

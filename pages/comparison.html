@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/topojson.v3.min.js"></script>
+    <script src="https://unpkg.com/d3-simple-slider"></script>
+
+    <link rel="stylesheet" href="../styles/vizualizations.css">
+    
+    <title>USA COVID-19 comparison to other viruses</title>
+</head>
+<body>
+    <div class="outer-container">
+        <div class="comparison-container">
+            <h1>Number of deaths caused by COVID-19 compared to Pneumonia and Influenza</h1>
+            <div>
+              
+              Sort By: 
+                <select id="sortOption">
+                    <option value="original">Original order</option>
+                    <option value="ascending">Least deaths</option>
+                    <option value="descending">Most deaths</option>
+                </select> 
+            </div>
+            <svg width="800" height="500"></svg>
+        </div>
+    </div>
+        <svg width="800" height="500"></svg>
+    </div>
+    <svg width="800" height="500"></svg>
+    <script src="../scripts/comparison.js"></script>
+</body>
+</html>
